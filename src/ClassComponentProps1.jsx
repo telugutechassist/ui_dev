@@ -14,4 +14,4 @@ class ClassComponentProps1 extends Component {
   }
 }
 
-export default ClassComponentProps1;
+export default ClassComponentProps1; 
