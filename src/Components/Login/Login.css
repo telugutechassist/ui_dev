@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets-global.website-files.com/614716f50b4f49202fdd0087/616949393cf90643c1403605_6423.png');
+  background-size: cover;
+}
+
+
+
+.container form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.container form .field {
+  margin-bottom: 20px;
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0096B7;
+  color: white;
+  cursor: pointer;
+}
+
+.container form button:hover {
+  background-color: darkblue;
+}
+
+.forgot-password,
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.field.remember-me {
+  float: right;
+
+  align-items: center;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.remember-label {
+   float: right;
+  
+}
+
+.remember-checkbox {
+  flex: 10;
+  margin-top: -5px;
+}
+
+.forgot-password a,
+.signup-link a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.blue-text {
+  color: #0096B7;
+}
+
+
+.forgot-password a:hover,
+.signup-link a:hover {
+  text-decoration: underline;
+}
