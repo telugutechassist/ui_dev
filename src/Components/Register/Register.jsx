@@ -18,25 +18,21 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Validate the form values
+  
     const errors = validate(formValues);
     
-    // Set the form errors
+
     setFormErrors(errors);
   
-    // Check if there are any errors
+  
     if (Object.keys(errors).length === 0) {
-      // If no errors, submit the form
+  
       console.log("Form submitted successfully!");
       
-      // Reset form values to initial state after submission
       setFormValues(initialValues);
       
-      // Set isSubmit to true if you need to track form submission
       setIsSubmit(true);
     } else {
-      // If there are errors, you can choose to handle them as needed.
-      // In this example, we simply log them.
       console.log("Form has validation errors:", errors);
     }
   };
