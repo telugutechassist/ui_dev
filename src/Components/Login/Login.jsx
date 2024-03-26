@@ -22,11 +22,9 @@ function Login({ onSignupClick }) {
 
     if (Object.keys(errors).length === 0) {
       console.log("Form submitted:", formData);
-      // Clear form data after successful submission
+     
       setFormData({ emailOrMobile: "", password: "", rememberMe: false });
     } else {
-      // If there are errors, you can choose to handle them as needed.
-      // In this example, we simply log them.
       console.log("Form has validation errors:", errors);
     }
   };
